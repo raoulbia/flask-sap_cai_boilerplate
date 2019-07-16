@@ -14,8 +14,8 @@ def index():
 def talk():
 
     # sample code for parsing data received from chatbot
-    #data = json.loads(request.get_data().decode())
-    #print(data)
+    data = json.loads(request.get_data().decode())
+    print(data)
 
     # sample code for making an API call and parsing response
     #r = requests.get("https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,EUR")
